@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.banner {
+    margin-top: auto;
+    width: 100%;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: center;
+    bottom: 0;
+    left: 0;
+}
+
+.banner p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: white;
+    font-size: 1.2em;          
+    font-weight: bold;         
+    letter-spacing: 0.07em;     
+    color: white;               
+  }
+  .navbar {
+    background-color: #00ff00;  
+  }
+  h1 {
+    font-family: "Dancing Script", cursive; 
+    text-align: center;
+  }
+  h3, p {
+    font-family: "Chakra Petch", sans-serif; 
+    color: black; 
+    font-size: 1.2em; 
+  }

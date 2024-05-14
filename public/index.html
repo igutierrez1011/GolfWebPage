@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golf Webpage</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: white;
+    }
+    .navbar-nav .nav-link:hover {
+      background-color: lightcoral;
+      font-size: 1.2em;
+      font-weight: bold;
+      letter-spacing: 0.07em;
+      color: white;
+    }
+    .navbar {
+      background-color: #00ff00;
+    }
+    h1 {
+      font-family: "Dancing Script", cursive;
+      text-align: center;
+    }
+    h3, p {
+      font-family: "Chakra Petch", sans-serif;
+      color: black;
+      font-size: 1.2em;
+    }
+    .banner {
+      width: 100%;
+      background-color: greenyellow;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+    .banner p {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .centered-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 200px); /* Adjust according to your content */
+    }
+    .form-container {
+      width: 60%; /* Make the form wider */
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./younggolf.jpg" alt="Logo" height="100" class="d-inline-block align-text-top"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.golfdigest.com/courses">Golf Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.golfdiscount.com/">Golf Clubs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Membership</a>
+          </li>
+        </ul>
+        <a href="https://www.pgachampionship.com/" class="navbar-text">
+          <img src="./PGA_Tour_logo.svg-1.png" alt="End Banner" height="100"/>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Welcome To The World Of Golf</h1>
+    <img src="./golf.jpg" alt="" class="mb-3">
+    <p class="mb-3"> 
+      Golf combines the thrill of sport with the beauty of nature, offering a perfect escape to hone your skills and unwind. It's not just a game—it's a way to challenge yourself, meet new friends, and enjoy serene landscapes. Why wait? Tee up for a new adventure today!
+    </p>
+    <div class="card-group">
+        <div class="card">
+          <img src="./Pebble+Beach.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Learn About Golf</h5>
+            <p class="card-text">Golf is a popular sport that involves hitting a small ball into a series of holes using various clubs. The game is typically played on a golf course, which consists of nine or eighteen holes, and can be enjoyed by people of all ages and skill levels.</p>
+            <a href="https://www.pgatour.com/" class="btn btn-primary">Visit PGA Tour</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./agold.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Golf Takes Practice</h5>
+            <p class="card-text">Dedication and consistent effort are required to master the intricate techniques and mental strategies of the sport, ultimately enhancing one’s performance on the course. This commitment to practice not only improves your skills but also builds resilience and mental toughness. Over time, you will find that the lessons learned in golf can be applied to many other aspects of life, fostering discipline and patience. Moreover, the camaraderie and sportsmanship experienced on the golf course can lead to lasting friendships and a deeper appreciation for the game's rich traditions.</p>
+        
+            <a href="https://topgolf.com/us/play/golf-lessons/" class="btn btn-primary">Visit Top Golf</a>
+          </div>
+        </div>
+      </div>
+      
+  <div><img src="./tg.jpg" alt=""></div>
+  <h1>Submit Questions Below</h1>
+  <div class="centered-form">
+    <div class="form-container">
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="banner">
+    <p>World Of Golf</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
